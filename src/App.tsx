@@ -271,7 +271,7 @@ export default function App() {
                 <div className="flex items-center gap-2">
                   <button onClick={() => speak(q.word)}>🔊</button>
                   <span className="font-bold">{q.word}</span>
-                </div>example
+                </div>
                 <div>Type: {q.type}</div>
                 <div>Example:{q.example}</div>
                 {/* Example: cần thêm cột example trong Google Sheet */}
