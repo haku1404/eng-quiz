@@ -273,7 +273,7 @@ export default function App() {
                   <span className="font-bold">{q.word}</span>
                 </div>
                 <div>Type: {q.type}</div>
-                <div>Example:{q.example}</div>
+                <div>Example: {q.example}</div>
                 {/* Example: cần thêm cột example trong Google Sheet */}
               </div>
             )}
